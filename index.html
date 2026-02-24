@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aarna's Contact Form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Aarna's Contact Form</h1>
+
+  <label>Search Contacts:</label><br>
+  <input type="text" id="searchInput" placeholder="Search by name or email...">
+
+  <hr>
+
+  <h2 id="formTitle">Add New Contact</h2>
+
+  <label>Name:</label><br>
+  <input type="text" id="nameInput" placeholder="Enter name"><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" id="emailInput" placeholder="Enter email"><br><br>
+
+  <label>Phone Number:</label><br>
+  <input type="number" id="phoneInput" placeholder="Enter phone number"><br><br>
+
+  <p id="errorMsg"></p>
+
+  <button id="addBtn" onclick="handleAdd()">Add Contact</button>
+  <button id="cancelBtn" onclick="handleCancel()">Cancel</button>
+
+  <hr>
+
+  <p id="contactCount">Total Contacts: 0</p>
+  <div id="contactList"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

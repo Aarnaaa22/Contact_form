@@ -1,0 +1,130 @@
+body {
+  background-color: #e8d5ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #7b2cbf;
+  text-align: center;
+  font-size: 28px;
+}
+
+h2 {
+  color: #7b2cbf;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #7b2cbf;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #b794f6;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #9d4edd;
+}
+
+button {
+  background-color: #9d4edd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #7b2cbf;
+}
+
+#cancelBtn {
+  background-color: #c9c9c9;
+  color: #333;
+  display: none;
+}
+
+#cancelBtn:hover {
+  background-color: #a8a8a8;
+}
+
+#errorMsg {
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 20px;
+  margin: 8px 0;
+}
+
+hr {
+  border: 1px solid #b794f6;
+  margin: 25px 0;
+}
+
+#contactCount {
+  color: #7b2cbf;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-box {
+  background-color: white;
+  border: 2px solid #c9b6e4;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  cursor: grab;
+}
+
+.contact-box:active {
+  cursor: grabbing;
+}
+
+.contact-box p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.contact-box strong {
+  color: #7b2cbf;
+}
+
+.contact-box button {
+  font-size: 13px;
+  padding: 6px 14px;
+  margin-top: 10px;
+}
+
+.del-btn {
+  background-color: #e63946;
+}
+
+.del-btn:hover {
+  background-color: #c1121f;
+}
+
+.drag-over {
+  border: 2px dashed #9d4edd;
+  background-color: #f3e8ff;
+}
